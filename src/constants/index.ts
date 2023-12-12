@@ -17,8 +17,8 @@ const optNames = [
 
 const accessories = ["Áo khoác", "Áo", "Mũ", "Quần"];
 const colors = ["Blue", "Black", "Green", "Red"];
-const sizes = ["Large", "Medium", "Small"];
-const sales = [10, 20, 15, 22];
+const size = ["Large", "Medium", "Small"];
+const sale = [10, 20, 15, 22];
 const time = ["Last time", "This month", "This week", "This year", "Today"];
 const published = [2018, 2020, 2023, 2022, 2019];
 
@@ -116,4 +116,4 @@ const data: productData[] = [
     },
 ];
 
-export { data, optNames, accessories, colors, sizes, sales, time, published };
+export { data, optNames, accessories, colors, size, sale, time, published };
